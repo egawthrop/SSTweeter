@@ -6,7 +6,7 @@
 import requests
 
 # make the http request to pull down the data
-url = 'http://www.cpc.ncep.noaa.gov/data/indices/wksst8110.for'
+url = 'https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for'
 
 response = requests.get(url)
 data = response.text
